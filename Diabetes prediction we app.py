@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-model_path = 'C:/Users/shrey/Desktop/code/ML/dataset/project/Diabetes Prediction/trained_model.sav'
+model_path = 'trained_model.sav'
 loaded_model = pickle.load(open(model_path,'rb'))  # rb -> read binary
 
 # Function for Prediction
