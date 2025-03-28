@@ -9,8 +9,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-model_path = 'Diabetes-Prediction/trained_model.sav'
-loaded_model = pickle.load(open(model_path,'rb'))  # rb -> read binary
+loaded_model = pickle.load(open('trained_model.sav','rb'))  # rb -> read binary
 
 # Function for Prediction
 def Diabetes_prediction(input_data):
