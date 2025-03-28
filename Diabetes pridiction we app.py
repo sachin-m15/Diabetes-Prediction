@@ -4,14 +4,13 @@ Created on Wed Jan 22 14:58:45 2025
 
 @author: sachin
 """
-
 import numpy as np
 import pickle 
 import streamlit as st
 
 # Load the saved model
 model_path = 'C:/Users/shrey/Desktop/code/ML/dataset/project/Diabetes Prediction/trained_model.sav'
-loaded_model = pickle.load(open(model_path, 'rb'))  # rb -> read binary
+loaded_model = pickle.load(open(model_path,'rb'))  # rb -> read binary
 
 # Function for Prediction
 def Diabetes_prediction(input_data):
