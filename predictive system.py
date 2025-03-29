@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 
 #loading the saved model
-loaded_model = pickle.load(open(r'trained_model.sav', 'rb'))
+loaded_model = pickle.load(open(r'C:/Users/shrey/Desktop/code/ML/dataset/project/Diabetes Prediction/trained_model.pkl', 'rb'))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
