@@ -9,7 +9,8 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-model_path = '/trained_model.pkl'
+import os
+model_path = os.path.join(os.path.dirname(__file__), 'trained_model.pkl')
 loaded_model = pickle.load(open(model_path, 'rb'))  # rb -> read binary
 
 # Function for Prediction
